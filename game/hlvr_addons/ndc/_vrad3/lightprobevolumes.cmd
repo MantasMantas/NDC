@@ -1,0 +1,6 @@
+@echo off
+setlocal
+vrad3 -map maps/1one.vmap -script lpv.vrad3 -entrypoint lpv_compute -init=lpv_init_660292530 -directfile=lpv_660292530_direct_0_0_0.dat -indirectfile=lpv_660292530_indirect_0_0_0.dat -startx=0 -starty=0 -startz=0 -endx=36 -endy=36 -endz=12 -minspp=128 -maxspp=512 -errortol=0.010000 -threads 4 -outdir results/outputs
+vrad3 -map maps/1one.vmap -script lpv.vrad3 -entrypoint lpv_compute -init=lpv_init_660292530 -directfile=lpv_660292530_direct_36_0_0.dat -indirectfile=lpv_660292530_indirect_36_0_0.dat -startx=36 -starty=0 -startz=0 -endx=64 -endy=36 -endz=12 -minspp=128 -maxspp=512 -errortol=0.010000 -threads 4 -outdir results/outputs
+vrad3 -map maps/1one.vmap -script lpv.vrad3 -entrypoint lpv_compute -init=lpv_init_660292530 -directfile=lpv_660292530_direct_0_36_0.dat -indirectfile=lpv_660292530_indirect_0_36_0.dat -startx=0 -starty=36 -startz=0 -endx=36 -endy=64 -endz=12 -minspp=128 -maxspp=512 -errortol=0.010000 -threads 4 -outdir results/outputs
+vrad3 -map maps/1one.vmap -script lpv.vrad3 -entrypoint lpv_compute -init=lpv_init_660292530 -directfile=lpv_660292530_direct_36_36_0.dat -indirectfile=lpv_660292530_indirect_36_36_0.dat -startx=36 -starty=36 -startz=0 -endx=64 -endy=64 -endz=12 -minspp=128 -maxspp=512 -errortol=0.010000 -threads 4 -outdir results/outputs
